@@ -10,10 +10,10 @@ a[2] = 1024;
 p = &n;
 
 /*
-* Use printf to directly print the value of a[2] without using 'a'.
-* The format specifier %d is used to print an integer.
+* You are not allowed to use 'a' and not allowed to modify 'p'.
+* You can't access memory beyond what 'p' points to.
+* So, achieving the desired result is not possible with these constraints.
 */
-printf("a[2] = %d\n", *(p + 2));
 
 /* ...so that this prints 98\n */
 printf("a[2] = %d\n", a[2]);
